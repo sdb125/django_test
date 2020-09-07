@@ -19,5 +19,6 @@ from user_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-    path('dev/',views.dev)
+    path('dev/',views.dev),
+    path('dev2/',views.dev2)
 ]
